@@ -21,30 +21,31 @@ import java.util.concurrent.*;
  * @Version 1.0
  **/
 public class MainWindow extends JFrame {
+    //日期输入框
     private JTextField startDateField;
     private JTextField endDateField;
-
+    //标识框
     private JLabel startDateLabel;
     private JLabel endDateLabel;
     private JLabel CM1PIDChangeLable;
     private JLabel CM2PIDChangeLable;
     private JLabel CM3PIDChangeLable;
-
+    //日期控件
     private DatePicker startDatepick;
     private DatePicker endDatepick;
-
+    //按键
     private JButton getStartDateButton;
     private JButton getEndDateButton;
     private JButton getResultButton;
     private JButton dataUpdateButton;
     private JButton getPIDChangeButton;
-
+    //文本输出框
     private JTextArea MPSAreaOutput;
     private JTextArea MessageAreaOutput;
     private JTextArea CM1PIDChangeAreaOutput;
     private JTextArea CM2PIDChangeAreaOutput;
     private JTextArea CM3PIDChangeAreaOutput;
-
+    //滚动条面板
     private JScrollPane CM1jScrollPane;
     private JScrollPane CM2jScrollPane;
     private JScrollPane CM3jScrollPane;
